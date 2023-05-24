@@ -19,7 +19,7 @@
   <b><center>COPYRIGHT © 2020<br>
   Blood Bank & Donation Management
   <br>
-  ALL RIGHTS RESERVED.
+  ALL RIGHTS RESERVED. Farzana
   </center>
   </div>
 
