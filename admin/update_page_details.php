@@ -158,7 +158,7 @@ include 'sidebar.php'; ?>
     {
       $type=$_GET['type'];
       $data=$_POST['data'];
-      $conn=mysqli_connect("10.0.0.9","root","","blood_donation") or die("Connection error");
+      $conn=mysqli_connect("192.168.56.118","root","","blood_donation") or die("Connection error");
       $sql= "update pages set page_data='{$data}'where page_type='{$type}'";
       $result=mysqli_query($conn,$sql) or die("query unsuccessful.");
     echo '<div class="alert alert-success"><b>Page Data Updated Successfully.</b></div>';

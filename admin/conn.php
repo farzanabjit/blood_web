@@ -1,3 +1,3 @@
 <?php
-$conn=mysqli_connect("10.0.0.9","root","","blood_donation") or die("Connection error");
+$conn=mysqli_connect("192.168.56.118","root","","blood_donation") or die("Connection error");
 ?>
